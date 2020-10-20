@@ -6,7 +6,7 @@ header{
 
 /* Especificidad = (0,0,1) */
 body {
-    background-image: url(Multimedia/fondo.jpg);
+    background-color: black;
     font-family: Helvetica,  serif;
     margin-left: 3.75em;
     margin-right: 3.75em;
