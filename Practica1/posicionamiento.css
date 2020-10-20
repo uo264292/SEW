@@ -1,0 +1,36 @@
+/* Especificidad (0,0,1)*/
+body{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "imagen section audio"
+        "footer footer footer";
+}
+
+/* Especificidad (0,0,1)*/
+header{
+    grid-area: header;
+
+}
+
+/* Especificidad (0,0,1)*/
+section {
+    grid-area: section;
+}
+
+/* Especificidad (0,1,1)*/
+section.audio {
+    grid-area: audio;
+}
+
+/* Especificidad (0,1,1)*/
+img.FotoCartel {
+    grid-area: imagen;
+}
+
+
+/* Especificidad (0,0,1)*/
+footer{
+    grid-area:footer;
+}

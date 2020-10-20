@@ -1,0 +1,14 @@
+/* Especificidad = (0,0,2) */
+nav li {
+	display:inline;  
+    border: solid 0.1em rgb(104, 223, 193);
+    padding: 0.2em;
+
+}
+
+/* Especificidad = (0,0,1) */
+ul{
+    font-family: cursive;
+    font-weight: 400;
+}
+

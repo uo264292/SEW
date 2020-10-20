@@ -1,0 +1,42 @@
+/* Especificidad = (0,0,1) */
+header{
+	background-image: url(Multimedia/fondo.jpg);
+	color:blanchedalmond; 
+}
+
+/* Especificidad = (0,0,1) */
+body {
+    background-image: url(Multimedia/fondo.jpg);
+    font-family: Helvetica,  serif;
+    margin-left: 3.75em;
+    margin-right: 3.75em;
+    text-align: justify;
+}
+
+
+/* Especificidad = (0,0,1) */
+section {
+    color:white;
+    text-align: justify;
+}
+
+/* Especificidad = (0,0,1) */
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Especificidad = (0,0,1) */
+a{
+	text-decoration: none;
+    color:blanchedalmond;
+    
+}
+
+footer {
+    margin-top: auto;
+    margin: auto;
+}
+
