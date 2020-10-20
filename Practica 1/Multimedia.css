@@ -1,0 +1,12 @@
+/* Especificidad = (0,1,1) */
+img.FotoCartel {
+    width: 20em;
+    height: 20em;
+    margin: 1em;
+}
+
+/* Especificidad = (0,0,1) */
+video {
+    width: 75em;
+    height: 37.5em;
+}

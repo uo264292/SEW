@@ -1,0 +1,17 @@
+/* Especificidad = (0,0,1) */
+table {
+    width: 40%;
+    border: 0.125em solid black;
+    border-collapse: collapse;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Especificidad = (0,0,2) */
+th,td {
+    width: 25%;
+    text-align: left;
+    border: 0.063em solid black;
+    background-color: lightblue;
+    color: black;
+}

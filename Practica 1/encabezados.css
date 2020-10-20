@@ -1,0 +1,24 @@
+
+/* Especificidad = (0,0,1) */
+h1 {
+    color: blanchedalmond;
+    font-size: 300%;
+    font-family: Verdana,  sans-serif;
+    text-align: left;
+    text-decoration: underline;
+    float: none;
+    margin-left: 10em;
+}
+
+
+/* Especificidad = (0,0,1) */
+h2{
+    color: blanchedalmond;
+    font-size: 120%;
+    text-decoration: underline;
+    font-family: Verdana,  sans-serif;
+    text-align: left;
+    float: none;
+    margin-left: 1em;
+    margin-right: 1em;
+}
